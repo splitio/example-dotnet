@@ -1,0 +1,18 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>
+        <strong>Feature Flag Name:</strong> <code>@Model.FeatureFlagName</code>
+    </p>
+    <p>
+        <strong>User Key:</strong> <code>@Model.UserKey</code>
+    </p>
+    <p>
+        <strong>Treatment:</strong> <code>@Model.Treatment</code>
+    </p>
+</div>
