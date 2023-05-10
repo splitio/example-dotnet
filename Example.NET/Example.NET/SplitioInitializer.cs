@@ -9,10 +9,10 @@ namespace Example.NET
 
         public SplitioInitializer()
         {
-            var apikey = "<your SDK KEY here>";
+            var sdkKey = "<your SDK KEY here>";
             var configurations = new ConfigurationOptions();
 
-            var factory = new SplitFactory(apikey, configurations);
+            var factory = new SplitFactory(sdkKey, configurations);
             Sdk = factory.Client();
         }
     }
