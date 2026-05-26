@@ -5,7 +5,10 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
+    <h1 class="display-4">
+    <svg viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg" width="48" height="48"><path fill-rule="evenodd" clip-rule="evenodd" d="M18.345 3.362l-7.542-1.308A5.238 5.238 0 004.747 6.32L2.146 21.328a5.238 5.238 0 004.266 6.055l4.582.794 5.797-4.892-10.24-8.338a1 1 0 01-.016-1.538l13.81-11.047zm-4.78 25.26l7.633 1.323a5.238 5.238 0 006.055-4.266l2.602-15.007a5.238 5.238 0 00-4.266-6.055l-4.68-.811-5.976 5.085 10.122 8.504a1 1 0 01.001 1.53l-11.49 9.695zm9.293-10.46l-4.512 3.808-9.6-7.818 4.641-3.948 9.471 7.957z" fill="url(#fme-main_svg__a)"></path><defs><linearGradient id="fme-main_svg__a" x1="8.268" y1="4.977" x2="28.436" y2="36.67" gradientUnits="userSpaceOnUse"><stop stop-color="#B336FF"></stop><stop offset="1" stop-color="#58159B"></stop></linearGradient></defs></svg>
+    Welcome
+    </h1>
     <p>
         <strong>Feature Flag Name:</strong> <code>@Model.FeatureFlagName</code>
     </p>
@@ -14,5 +17,8 @@
     </p>
     <p>
         <strong>Treatment:</strong> <code>@Model.Treatment</code>
+    </p>
+    <p>
+        @DateTime.Now
     </p>
 </div>
