@@ -8,7 +8,7 @@ namespace Example.NET
 
             // Add services to the container.
             builder.Services.AddRazorPages();
-            builder.Services.AddSingleton<SplitioInitializer>();
+            builder.Services.AddSingleton<FmeInitializer>();
 
             var app = builder.Build();
 
